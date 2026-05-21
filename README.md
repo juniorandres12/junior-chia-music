@@ -1,2 +1,19 @@
-# junior-chia-music
-Portafolio musical de Junior Chia: rap, hip hop, underground y tracks publicados en YouTube.
+# Junior Chia | Música
+
+Portafolio musical independiente de Junior Chia.
+
+## Canciones incluidas
+
+- Perdiste el Intento
+- Rumbo a la nada
+
+## Tecnologías
+
+- HTML
+- CSS
+- JavaScript
+- YouTube embeds
+
+## Canal
+
+https://www.youtube.com/@juniorchiaT

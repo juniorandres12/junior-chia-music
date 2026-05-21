@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portafolio musical de Junior Chia: rap, hip hop, underground y atmósferas oscuras." />
+  <title>Junior Chia | Música</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a href="#home" class="brand" aria-label="Ir al inicio">
+      <span>JC</span>
+      <strong>Junior Chia</strong>
+    </a>
+
+    <nav class="nav">
+      <a href="#tracks">Tracks</a>
+      <a href="#canal">YouTube</a>
+      <a href="#instagram">Instagram</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-left">
+        <p class="kicker">rap / hip hop / underground</p>
+        <h1>Junior<br>Chia</h1>
+        <p class="hero-copy">
+          Canciones escritas desde lo que siento. Rap independiente,
+          atmósferas oscuras y demos con identidad propia.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#tracks">Escuchar tracks</a>
+          <a class="btn ghost" href="https://www.youtube.com/@juniorchiaT" target="_blank" rel="noreferrer">Canal de YouTube</a>
+        </div>
+      </div>
+
+      <aside class="now-playing" aria-label="Reproductor destacado">
+        <div class="player-label">now playing</div>
+        <div class="video-frame" id="videoFrame">
+          <iframe
+            id="trackPlayer"
+            src="https://www.youtube.com/embed/Z7YxOPnAh9w"
+            title="Perdiste el Intento — Junior Chia"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="player-meta">
+          <span id="activeNumber">01</span>
+          <div>
+            <h2 id="activeTitle">Perdiste el Intento</h2>
+            <p id="activeCredit">Beat: Scarface Martin · Voz, letra y mezcla básica: Junior Chia</p>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="track-vault" id="tracks">
+      <div class="section-head">
+        <p class="kicker">archivo musical</p>
+        <h2>Tracks publicados</h2>
+        <p>Dos canciones subidas a YouTube. Cada una con su propia ruta, mood y golpe.</p>
+      </div>
+
+      <div class="tracks-list">
+        <article class="track-card active" data-video="Z7YxOPnAh9w" data-title="Perdiste el Intento" data-number="01" data-credit="Beat: Scarface Martin · Voz, letra y mezcla básica: Junior Chia">
+          <img class="track-cover" src="https://img.youtube.com/vi/Z7YxOPnAh9w/maxresdefault.jpg" alt="Portada de Perdiste el Intento" loading="lazy" />
+          <div class="track-info">
+            <span class="track-number">01</span>
+            <div>
+              <p class="mood">boom bap / sad</p>
+              <h3>Perdiste el Intento</h3>
+              <p class="credit">Beat: Scarface Martin</p>
+              <p class="role">Voz, letra y mezcla básica: Junior Chia</p>
+            </div>
+          </div>
+          <div class="track-actions">
+            <button type="button" class="load-track">Cargar track</button>
+            <a href="https://www.youtube.com/watch?v=Z7YxOPnAh9w" target="_blank" rel="noreferrer">Abrir en YouTube</a>
+          </div>
+        </article>
+
+        <article class="track-card" data-video="m26gX1KlOUU" data-title="Rumbo a la nada" data-number="02" data-credit="Beat: JesusCxn · Voz, letra y mezcla básica: Junior Chia">
+          <img class="track-cover" src="https://img.youtube.com/vi/m26gX1KlOUU/maxresdefault.jpg" alt="Portada de Rumbo a la nada" loading="lazy" />
+          <div class="track-info">
+            <span class="track-number">02</span>
+            <div>
+              <p class="mood">underground / dark</p>
+              <h3>Rumbo a la nada</h3>
+              <p class="credit">Beat: JesusCxn</p>
+              <p class="role">Voz, letra y mezcla básica: Junior Chia</p>
+            </div>
+          </div>
+          <div class="track-actions">
+            <button type="button" class="load-track">Cargar track</button>
+            <a href="https://www.youtube.com/watch?v=m26gX1KlOUU" target="_blank" rel="noreferrer">Abrir en YouTube</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="channel-block" id="canal">
+  <div>
+    <p class="kicker">youtube channel</p>
+    <h2>@juniorchiaT</h2>
+  </div>
+
+  <p>
+    Archivo de canciones, visuales y próximos lanzamientos de Junior Chia.
+  </p>
+
+  <a class="btn primary" href="https://www.youtube.com/@juniorchiaT" target="_blank" rel="noreferrer">
+    Visitar canal
+  </a>
+</section>
+
+<section class="channel-block instagram-block" id="instagram">
+  <div>
+    <p class="kicker">instagram</p>
+    <h2>@juniorsssj</h2>
+  </div>
+
+  <p>
+    Fragmentos, adelantos, visuales y parte del universo musical de Junior Chia.
+  </p>
+
+  <a class="btn primary" href="https://www.instagram.com/juniorsssj/?hl=es" target="_blank" rel="noreferrer">
+    Ir a Instagram
+  </a>
+</section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Junior Chia. Música independiente.</p>
+    <a href="#home">Volver arriba</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
